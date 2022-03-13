@@ -22,9 +22,9 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
 
 # Required Firmware for Hardware
 1) PiJuice Firmware
-2) rtl8188eu (managed mode wifi card)
-3) rtl8812au (monitor mode wifi card)
-4) bluetooth transmitter
+2) RTL8188eu (managed mode wifi card)
+3) RTL8812au (monitor mode wifi card)
+4) Bluetooth transmitter
 5) 7 inch screen with capactive touch
 
 # Libraries Used
