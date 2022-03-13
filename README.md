@@ -16,9 +16,12 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
 1) Mounting Kali Linux
 * Get the version of kali linux for you respective raspberry pi model. 
   * Download links for kalipi available here: https://www.kali.org/get-kali/#kali-arm 
-* Mount the downloaded image to a formated sd card of your choosing
+* Mount the downloaded image to a formated sd card of your choosing.
   * If you don't already have an sd card etcher downloaded I personally reccomend Balena.
   * Download links for balena available here: https://www.balena.io/etcher/
+2) Setting up kalipi environment 
+* Once your sd card is plugged in the raspberry pi will run its course for the installation, at this point ensure that you are plugged into an ethernet port to do so. 
+* Once your kali linux environment has installed on the raspberry pi its time to install the neccesary hardware drivers
 
 # Required Firmware for Hardware
 1) PiJuice Firmware
