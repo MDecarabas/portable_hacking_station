@@ -7,6 +7,8 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
 # Hardware Used
 
 # Hardware Setup
+1) Mounting Kali Linux
+  -item
 
 # Required Firmware for Hardware
 
