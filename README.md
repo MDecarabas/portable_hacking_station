@@ -25,7 +25,7 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
 2) rtl8188eu (managed mode wifi card)
 3) rtl8812au (monitor mode wifi card)
 4) bluetooth transmitter
-5) 
+5) 7 inch screen with capactive touch
 
 # Libraries Used
 1) Tello SDK 2.0
