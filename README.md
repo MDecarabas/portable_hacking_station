@@ -21,6 +21,7 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
   * Download links for balena available here: https://www.balena.io/etcher/
 2) Setting up kalipi environment 
 * Once your sd card is plugged in the raspberry pi will run its course for the installation, at this point ensure that you are plugged into an ethernet port to do so. 
+  * kali is the default password and username once installed, for the purpose of this readme those shall remain unchanged. However, in accordance to good security practices please customize those. You wanna be the hacker, not the hacked!
 * Once your kali linux environment has installed on the raspberry pi its time to install the neccesary hardware drivers
 
 # Required Firmware for Hardware
