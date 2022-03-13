@@ -8,7 +8,8 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
 
 # Hardware Setup
 1) Mounting Kali Linux
-* item
+* Get the version of kali linux for you respective raspberry pi model. 
+ * Download links available here: https://www.kali.org/get-kali/#kali-arm 
 
 # Required Firmware for Hardware
 
