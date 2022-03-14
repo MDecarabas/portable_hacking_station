@@ -57,6 +57,6 @@ make CC=gcc-10
 3) crackNconnect.py
 
 # Example Attack Scripts
-1) land.py
-2) pilot.py
-3) smash.py
+1) telloLand.py
+2) telloPilot.py
+3) telloSmash.py
