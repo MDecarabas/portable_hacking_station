@@ -36,9 +36,9 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
  ```
   * Step 2: Using this issue solution: https://github.com/aircrack-ng/rtl8188eus/issues/156 replace the code in your the github library as specified 
   * Step 3: Compile either using docker or on the raspberry, be warned compiling on the machine will take a long amount of time. As well it is not enough to simply make && make install. Due to certain deprecated assets still being part of the kali raspberry pi image make must be done in the way specified below.
-'''
+```
 make CC=gcc-10
-'''
+```
 4) RTL8812au (monitor mode wifi card)
 * The RTL8812au drivers come pre-installed and work as prescribed with no issues as of the latest commit. 
 6) Bluetooth transmitter
