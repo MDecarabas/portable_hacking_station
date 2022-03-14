@@ -26,10 +26,24 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
 
 # Required Firmware for Hardware
 1) PiJuice Firmware
-2) RTL8188eu (managed mode wifi card)
-3) RTL8812au (monitor mode wifi card)
-4) Bluetooth transmitter
-5) 7 inch screen with capactive touch
+* The PiJuice firmware described as per their respective tutorial functions properly and should just be followed. 
+3) RTL8188eu (managed mode wifi card)
+* The first step to getting the RTL8188eu to work on the portable hacking station is dowloading them from this github repository: https://github.com/drygdryg/rtl8188eus
+* Once downloaded there are a couple extra required steps for it to function properly.
+  * Step 1: Blacklist an already pre-installed kali linux driver. You can do this using the below command.
+ ```
+ echo 'blacklist r8188eu'|sudo tee -a '/etc/modprobe.d/realtek.conf'
+ ```
+  * Step 2: Using this issue solution: https://github.com/aircrack-ng/rtl8188eus/issues/156 replace the code in your the github library as specified 
+  * Step 3: Compile either using docker or on the raspberry, be warned compiling on the machine will take a long amount of time. As well it is not enough to simply make && make install. Due to certain deprecated assets still being part of the kali raspberry pi image make must be done in the way specified below.
+'''
+make CC=gcc-10
+'''
+4) RTL8812au (monitor mode wifi card)
+* The RTL8812au drivers come pre-installed and work as prescribed with no issues as of the latest commit. 
+6) Bluetooth transmitter
+7) 7 inch screen with capactive touch
+*No firmware is required the capacitive touch screen attached 
 
 # Libraries Used
 1) Tello SDK 2.0
@@ -45,4 +59,4 @@ The below device is able to be used for any cyberphysical system prone to wpa/wp
 # Example Attack Scripts
 1) land.py
 2) pilot.py
-3) collect.py
+3) smash.py
