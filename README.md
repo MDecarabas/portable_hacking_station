@@ -47,10 +47,10 @@ make CC=gcc-10
 
 # Libraries Used
 1) Tello SDK 2.0
-2) Wifite 2.0
 3) aircrack-ng
-4) t-shark
 
+# Python Libraries Required
+1) keyboard
 # Cracking Scripts
 1) crack.py
 2) connect.py
