@@ -62,30 +62,29 @@ make CC=gcc-10
 3) telloSmash.py
 
 # Tello Pilot Commands
-This online course will walk you through using Python to program your Tello drone for autonomous flight. As of 4/1/18 the commands supported by Tello are:
 
-command
-takeoff
-land
-up xx (fly up a distance from 20 - 500 cm)
-down xx (fly down a distance from 20 - 500 cm)
-left xx (fly left a distance from 20 - 500 cm)
-right xx (fly right a distance from 20 - 500 cm)
-forward xx (fly forward a distance from 20 - 500 cm)
-back xx (fly backward a distance from 20 - 500 cm)
-go x y z speed (fly x y z distance with speed)
-cw xx (yaw clockwise with angle from 1 - 3600 degrees)
-ccw xx (yaw counter clockwise with angle from 1 - 3600 degrees)
-flip x (flip l/r/f/b/bl/br/fl/fr)
-l = left
-r = right
-f = forward
-b = backward
-bl = backward left
-br = backward right
-fl = forward left
-fr = forward right
-speed x (set speed from 1 - 100 cm/s)
-speed? (get current speed)
-battery? (get current battery percentage)
-time? (get current flight time)
+1) command
+2) takeoff
+3) land
+4) up xx (fly up a distance from 20 - 500 cm)
+5) down xx (fly down a distance from 20 - 500 cm)
+6) left xx (fly left a distance from 20 - 500 cm)
+7) right xx (fly right a distance from 20 - 500 cm)
+8) forward xx (fly forward a distance from 20 - 500 cm)
+9) back xx (fly backward a distance from 20 - 500 cm)
+10) go x y z speed (fly x y z distance with speed)
+11) cw xx (yaw clockwise with angle from 1 - 3600 degrees)
+12) ccw xx (yaw counter clockwise with angle from 1 - 3600 degrees)
+13) flip x (flip l/r/f/b/bl/br/fl/fr)
+ * l = left
+ * r = right
+ * f = forward
+ * b = backward
+ * bl = backward left
+ * br = backward right
+ * fl = forward left
+ * fr = forward right
+14) speed x (set speed from 1 - 100 cm/s)
+15) speed? (get current speed)
+16) battery? (get current battery percentage)
+17) time? (get current flight time)
