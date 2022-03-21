@@ -47,7 +47,9 @@ make CC=gcc-10
 
 # Libraries Used
 1) Tello SDK 2.0
+  * can be downloaded from: https://github.com/dji-sdk/Tello-Python
 3) aircrack-ng
+  * Comes standard with kali linux, however can be also downloaded from: https://github.com/aircrack-ng/aircrack-ng
 
 # Cracking Scripts
 1) crack.py
@@ -73,7 +75,7 @@ The above script is used to issue commands for a tello drone to land
 
 3) tui.py
 ```
-python3 connectTo.py
+python3 tui.py
 ```
 The above script is used to issue user command to the tello drone
 
