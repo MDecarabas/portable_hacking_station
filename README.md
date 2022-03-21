@@ -51,11 +51,31 @@ make CC=gcc-10
 
 # Cracking Scripts
 1) crack.py
-2) connect.py
+  * To start run command
+```
+python3 crack.py
+```
+The above script is used to crack the wpa2 encryption of a tello drone
+
+3) connectTo.py
+  * To start run command
+```
+python3 connectTo.py
+```
+The above script is used to connect to the wpa2 encryption of a tello drone
 
 # Example Attack Scripts
-1) telloLand.py
-2) tui.py
+1) land.py
+```
+python3 land.py
+```
+The above script is used to issue commands for a tello drone to land
+
+3) tui.py
+```
+python3 connectTo.py
+```
+The above script is used to issue user command to the tello drone
 
 # Tello Pilot Commands
 
