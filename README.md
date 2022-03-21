@@ -49,17 +49,13 @@ make CC=gcc-10
 1) Tello SDK 2.0
 3) aircrack-ng
 
-# Python Libraries Required
-1) keyboard
 # Cracking Scripts
 1) crack.py
 2) connect.py
-3) crackNconnect.py
 
 # Example Attack Scripts
 1) telloLand.py
-2) telloPilot.py
-3) telloSmash.py
+2) tui.py
 
 # Tello Pilot Commands
 
